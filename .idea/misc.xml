@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/activity_api.xml" value="0.15789473684210525" />
+        <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/activity_coroutines.xml" value="0.15789473684210525" />
         <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/activity_okhttp_api.xml" value="0.15756578947368421" />
         <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/activity_retrofit_api.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/activity_tabbed.xml" value="0.15789473684210525" />
+        <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/dialog_box.xml" value="0.15789473684210525" />
         <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/item_layout.xml" value="0.14901315789473685" />
       </map>
     </option>

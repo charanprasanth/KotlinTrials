@@ -33,20 +33,43 @@
             android:layout_marginStart="10dp"
             android:text="Clear" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLayout"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
         <Button
-            android:id="@+id/button"
+            android:id="@+id/retrofitButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:text="Retrofit" />
+
+        <Button
+            android:id="@+id/coroutineBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Coroutine" />
+
+        <Button
+            android:id="@+id/tabActivityBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Tab Activity" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/btnLayout"
-        android:layout_margin="10dp"
+        android:layout_below="@id/btnLayout2"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"

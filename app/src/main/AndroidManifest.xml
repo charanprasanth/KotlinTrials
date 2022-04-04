@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinTrials">
         <activity
+            android:name=".TabbedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CoroutinesActivity"
+            android:exported="false" />
+        <activity
             android:name=".RetrofitApiActivity"
             android:exported="false" />
         <activity

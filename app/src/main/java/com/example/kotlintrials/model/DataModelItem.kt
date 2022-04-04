@@ -1,4 +1,4 @@
-package com.example.kotlintrials
+package com.example.kotlintrials.model
 
 import com.google.gson.annotations.SerializedName
 
@@ -8,11 +8,4 @@ data class DataModelItem(
     val id: Int,
     val title: String,
     val userId: Int
-)
-
-data class Post (
-    val userId: Int,
-    val id: Int,
-    val title: String,
-    val body: String
 )

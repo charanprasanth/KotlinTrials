@@ -1,3 +1,3 @@
-package com.example.kotlintrials
+package com.example.kotlintrials.model
 
 class DataModel : ArrayList<DataModelItem>()
