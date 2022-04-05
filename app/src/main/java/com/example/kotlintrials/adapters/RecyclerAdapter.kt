@@ -1,4 +1,4 @@
-package com.example.kotlintrials
+package com.example.kotlintrials.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +8,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.kotlintrials.R
 import java.util.ArrayList
 import kotlin.random.Random
 

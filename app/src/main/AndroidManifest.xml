@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinTrials">
         <activity
+            android:name=".TikTokStyledActivity"
+            android:exported="false" />
+        <activity
             android:name=".TabbedActivity"
             android:exported="false" />
         <activity

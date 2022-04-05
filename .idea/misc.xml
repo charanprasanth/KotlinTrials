@@ -9,8 +9,12 @@
         <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/activity_okhttp_api.xml" value="0.15756578947368421" />
         <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/activity_retrofit_api.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/activity_tabbed.xml" value="0.15789473684210525" />
+        <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/activity_tik_tok_styled.xml" value="0.15789473684210525" />
         <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/dialog_box.xml" value="0.15789473684210525" />
+        <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/fragment_action.xml" value="0.14901315789473685" />
+        <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/fragment_widget.xml" value="0.15789473684210525" />
         <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/item_layout.xml" value="0.14901315789473685" />
+        <entry key="..\:/AndroidStudioProjects/KotlinTrials/app/src/main/res/layout/tiktok_ui.xml" value="0.2" />
       </map>
     </option>
   </component>

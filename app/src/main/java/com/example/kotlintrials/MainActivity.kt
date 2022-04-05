@@ -7,6 +7,7 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.kotlintrials.adapters.RecyclerAdapter
 
 
 class MainActivity : AppCompatActivity(), MainActivityContract.View, View.OnClickListener {
@@ -32,6 +33,7 @@ class MainActivity : AppCompatActivity(), MainActivityContract.View, View.OnClic
     lateinit var clearBtn: Button
     lateinit var retrofitBtn: Button
     lateinit var coroutineBtn: Button
+    lateinit var tabbedActivityBtn: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,6 +47,7 @@ class MainActivity : AppCompatActivity(), MainActivityContract.View, View.OnClic
         clearBtn.setOnClickListener(this)
         retrofitBtn.setOnClickListener(this)
         coroutineBtn.setOnClickListener(this)
+        tabbedActivityBtn.setOnClickListener(this)
     }
 
     override fun initView() {
@@ -53,6 +56,7 @@ class MainActivity : AppCompatActivity(), MainActivityContract.View, View.OnClic
         clearBtn = findViewById(R.id.clearBtn)
         retrofitBtn = findViewById(R.id.retrofitButton)
         coroutineBtn = findViewById(R.id.coroutineBtn)
+        tabbedActivityBtn = findViewById(R.id.tabbedActivityBtn)
         recyclerView = findViewById(R.id.recyclerView)
     }
 
@@ -94,6 +98,9 @@ class MainActivity : AppCompatActivity(), MainActivityContract.View, View.OnClic
             }
             v?.id?.equals(R.id.coroutineBtn) == true -> {
                 startActivity(Intent(this, CoroutinesActivity::class.java))
+            }
+            v?.id?.equals(R.id.tabbedActivityBtn) == true -> {
+                startActivity(Intent(this, TikTokStyledActivity::class.java))
             }
         }
     }
