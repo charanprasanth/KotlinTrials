@@ -1,4 +1,4 @@
-package com.example.kotlintrials
+package com.example.kotlintrials.coroutines
 
 import android.content.Context
 

@@ -1,10 +1,11 @@
-package com.example.kotlintrials
+package com.example.kotlintrials.coroutines
 
 import android.app.Dialog
 import android.content.Context
 import android.view.Window
 import android.widget.TextView
 import android.widget.Toast
+import com.example.kotlintrials.R
 
 import kotlinx.coroutines.*
 

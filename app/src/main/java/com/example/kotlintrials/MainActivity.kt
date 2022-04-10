@@ -8,6 +8,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kotlintrials.adapters.RecyclerAdapter
+import com.example.kotlintrials.coroutines.CoroutinesActivity
+import com.example.kotlintrials.retrofitapigetrequest.RetrofitApiActivity
+import com.example.kotlintrials.retrofitcrud.RetrofitCrudActivity
+import com.example.kotlintrials.tiktok.TikTokStyledActivity
 
 
 class MainActivity : AppCompatActivity(), MainActivityContract.View, View.OnClickListener {
@@ -33,6 +37,7 @@ class MainActivity : AppCompatActivity(), MainActivityContract.View, View.OnClic
     lateinit var clearBtn: Button
     lateinit var retrofitBtn: Button
     lateinit var coroutineBtn: Button
+    lateinit var retrofitCrudActivityBtn: Button
     lateinit var tabbedActivityBtn: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,6 +52,7 @@ class MainActivity : AppCompatActivity(), MainActivityContract.View, View.OnClic
         clearBtn.setOnClickListener(this)
         retrofitBtn.setOnClickListener(this)
         coroutineBtn.setOnClickListener(this)
+        retrofitCrudActivityBtn.setOnClickListener(this)
         tabbedActivityBtn.setOnClickListener(this)
     }
 
@@ -56,6 +62,7 @@ class MainActivity : AppCompatActivity(), MainActivityContract.View, View.OnClic
         clearBtn = findViewById(R.id.clearBtn)
         retrofitBtn = findViewById(R.id.retrofitButton)
         coroutineBtn = findViewById(R.id.coroutineBtn)
+        retrofitCrudActivityBtn = findViewById(R.id.retrofitCrudActivityBtn)
         tabbedActivityBtn = findViewById(R.id.tabbedActivityBtn)
         recyclerView = findViewById(R.id.recyclerView)
     }
@@ -98,6 +105,9 @@ class MainActivity : AppCompatActivity(), MainActivityContract.View, View.OnClic
             }
             v?.id?.equals(R.id.coroutineBtn) == true -> {
                 startActivity(Intent(this, CoroutinesActivity::class.java))
+            }
+            v?.id?.equals(R.id.retrofitCrudActivityBtn) == true -> {
+                startActivity(Intent(this, RetrofitCrudActivity::class.java))
             }
             v?.id?.equals(R.id.tabbedActivityBtn) == true -> {
                 startActivity(Intent(this, TikTokStyledActivity::class.java))

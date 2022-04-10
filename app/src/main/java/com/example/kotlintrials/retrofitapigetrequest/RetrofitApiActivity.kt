@@ -1,10 +1,9 @@
-package com.example.kotlintrials
+package com.example.kotlintrials.retrofitapigetrequest
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.TextView
-import kotlin.math.log
+import com.example.kotlintrials.R
 
 class RetrofitApiActivity : AppCompatActivity(), RetrofitApiActivityContract.View {
 

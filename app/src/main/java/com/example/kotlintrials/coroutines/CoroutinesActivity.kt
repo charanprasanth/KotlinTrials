@@ -1,10 +1,11 @@
-package com.example.kotlintrials
+package com.example.kotlintrials.coroutines
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import com.example.kotlintrials.R
 
 class CoroutinesActivity : AppCompatActivity(), CoroutinesActivityInteractor.View, View.OnClickListener {
 

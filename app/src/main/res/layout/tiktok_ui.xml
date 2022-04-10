@@ -10,6 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
     <ImageView
         android:visibility="gone"
         android:layout_margin="13dp"
@@ -30,13 +36,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <ImageView
-        android:layout_margin="13dp"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/ic_back"
-        android:id="@+id/backBtn"
-        android:layout_width="25dp"
-        android:layout_height="25dp"/>
+<!--    <ImageView-->
+<!--        android:id="@+id/backBtn"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="13dp"-->
+<!--        android:layout_marginTop="13dp"-->
+<!--        android:layout_marginEnd="13dp"-->
+<!--        android:layout_marginBottom="13dp"-->
+<!--        android:src="@drawable/ic_back" />-->
 
     <ImageView
         android:id="@+id/menuBtn"
@@ -72,7 +81,7 @@
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2.5k"/>
+            android:text="200"/>
 
         <ImageView
             android:layout_marginTop="25dp"
@@ -88,7 +97,7 @@
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1.75k"/>
+            android:text="108"/>
 
         <ImageView
             android:src="@drawable/ic_share"

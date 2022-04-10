@@ -12,16 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinTrials">
         <activity
-            android:name=".TikTokStyledActivity"
+            android:name=".networking.OkHttpActivity"
             android:exported="false" />
         <activity
-            android:name=".TabbedActivity"
+            android:name=".retrofitcrud.RetrofitCrudActivity"
             android:exported="false" />
         <activity
-            android:name=".CoroutinesActivity"
+            android:name=".tiktok.TikTokStyledActivity"
             android:exported="false" />
         <activity
-            android:name=".RetrofitApiActivity"
+            android:name=".coroutines.CoroutinesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".retrofitapigetrequest.RetrofitApiActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

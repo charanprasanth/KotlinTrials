@@ -1,4 +1,4 @@
-package com.example.kotlintrials
+package com.example.kotlintrials.retrofitapigetrequest
 
 import android.content.Context
 import android.widget.TextView
